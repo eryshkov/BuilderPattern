@@ -12,6 +12,9 @@
 		5C5ACF2621F870470023780B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5ACF2421F870470023780B /* Main.storyboard */; };
 		5C5ACF2821F870490023780B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C5ACF2721F870490023780B /* Assets.xcassets */; };
 		5C5ACF2B21F870490023780B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C5ACF2921F870490023780B /* LaunchScreen.storyboard */; };
+		5C5ACF3421F872AF0023780B /* CatalogPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ACF3321F872AF0023780B /* CatalogPresenter.swift */; };
+		5C5ACF3621F8738C0023780B /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ACF3521F8738C0023780B /* CatalogViewController.swift */; };
+		5C5ACF3821F873E80023780B /* CatalogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5ACF3721F873E80023780B /* CatalogInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5C5ACF2721F870490023780B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C5ACF2A21F870490023780B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C5ACF2C21F870490023780B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C5ACF3321F872AF0023780B /* CatalogPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogPresenter.swift; sourceTree = "<group>"; };
+		5C5ACF3521F8738C0023780B /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
+		5C5ACF3721F873E80023780B /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,19 @@
 				5C5ACF2721F870490023780B /* Assets.xcassets */,
 				5C5ACF2921F870490023780B /* LaunchScreen.storyboard */,
 				5C5ACF2C21F870490023780B /* Info.plist */,
+				5C5ACF3221F8725A0023780B /* Catalog */,
 			);
 			path = BuilderPattern;
+			sourceTree = "<group>";
+		};
+		5C5ACF3221F8725A0023780B /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				5C5ACF3321F872AF0023780B /* CatalogPresenter.swift */,
+				5C5ACF3721F873E80023780B /* CatalogInteractor.swift */,
+				5C5ACF3521F8738C0023780B /* CatalogViewController.swift */,
+			);
+			path = Catalog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C5ACF3621F8738C0023780B /* CatalogViewController.swift in Sources */,
 				5C5ACF2321F870470023780B /* ViewController.swift in Sources */,
 				5C5ACF2121F870470023780B /* AppDelegate.swift in Sources */,
+				5C5ACF3421F872AF0023780B /* CatalogPresenter.swift in Sources */,
+				5C5ACF3821F873E80023780B /* CatalogInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
