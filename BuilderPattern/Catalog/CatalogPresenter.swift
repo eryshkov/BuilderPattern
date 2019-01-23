@@ -13,7 +13,7 @@ protocol Presenter {
 }
 
 class CatalogPresenter: Presenter {
-    var messageInfo: String = "Создавать viewModel для представления"
-    
     weak var viewController: CatalogViewController?
+    
+    var messageInfo: String = "Создавать viewModel для представления"
 }

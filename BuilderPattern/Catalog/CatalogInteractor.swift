@@ -15,6 +15,8 @@ protocol Interactor {
 class CatalogInteractor: Interactor {
     var presenter: Presenter!
     
+    //Business logic
+    
     required init(presenter: Presenter) {
         self.presenter = presenter
     }
