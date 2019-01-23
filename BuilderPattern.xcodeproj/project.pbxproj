@@ -32,6 +32,10 @@
 		5C5ACF3721F873E80023780B /* CatalogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogInteractor.swift; sourceTree = "<group>"; };
 		5C5ACF3921F877920023780B /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
 		5C5ACF3B21F878360023780B /* CatalogBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogBuilder.swift; sourceTree = "<group>"; };
+		5C5ACF3E21F87D1F0023780B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C5ACF4021F87D3F0023780B /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		5C5ACF4121F87D3F0023780B /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		5C5ACF4221F87F8B0023780B /* Builder.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Builder.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 		5C5ACF1421F870470023780B = {
 			isa = PBXGroup;
 			children = (
+				5C5ACF3F21F87D300023780B /* screens */,
+				5C5ACF3E21F87D1F0023780B /* README.md */,
 				5C5ACF1F21F870470023780B /* BuilderPattern */,
 				5C5ACF1E21F870470023780B /* Products */,
 			);
@@ -93,6 +99,16 @@
 				5C5ACF2221F870470023780B /* ViewController.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		5C5ACF3F21F87D300023780B /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				5C5ACF4221F87F8B0023780B /* Builder.gif */,
+				5C5ACF4021F87D3F0023780B /* 1.jpeg */,
+				5C5ACF4121F87D3F0023780B /* 2.jpeg */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
